@@ -42,10 +42,10 @@ for i in 0...len-2{
             x = x + 1
         }
         else if(symbolAtIndex == "^"){
-            y = y - 1
+            y = y + 1
         }
         else if(symbolAtIndex == "v"){
-            y = y + 1
+            y = y - 1
         }
         else if(symbolAtIndex == "~"){
             reverse = false
@@ -61,10 +61,10 @@ for i in 0...len-2{
             x = x - 1
         }
         else if(symbolAtIndex == "^"){
-            y = y + 1
+            y = y - 1
         }
         else if(symbolAtIndex == "v"){
-            y = y - 1
+            y = y + 1
         }
         else if(symbolAtIndex == "~"){
             reverse = true
